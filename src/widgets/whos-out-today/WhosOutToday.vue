@@ -88,6 +88,8 @@ const staffTabs = computed((): Record<StaffTabs, LeaveRequest[]> => {
                   class="
                     rounded border border-white bg-slate-100 px-1.5 py-0.5
                     text-xs font-medium text-gray-500 tabs-trigger-count
+
+                    [[data-state=active]_&]:bg-white
                   "
                 >
                   {{ list.length }}
@@ -166,9 +168,3 @@ const staffTabs = computed((): Record<StaffTabs, LeaveRequest[]> => {
     </div>
   </body>
 </template>
-
-<style>
-.tabs-trigger[data-state="active"] .tabs-trigger-count{
-    @apply bg-white !important;
-}
-</style>
