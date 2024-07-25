@@ -1,4 +1,4 @@
-lockfileVersion: '6.0'
+lockfileVersion: '6.1'
 
 settings:
   autoInstallPeers: true
@@ -121,6 +121,9 @@ devDependencies:
   eslint-plugin-storybook:
     specifier: ^0.8.0
     version: 0.8.0(eslint@9.5.0)(typescript@5.4.5)
+  eslint-plugin-tailwindcss:
+    specifier: ^3.17.4
+    version: 3.17.4(tailwindcss@3.4.6)
   jsdom:
     specifier: ^24.1.0
     version: 24.1.0
@@ -2766,7 +2769,7 @@ packages:
       ts-dedent: 2.2.0
       type-fest: 2.19.0
       vue: 3.4.33(typescript@5.4.5)
-      vue-component-type-helpers: 2.0.28
+      vue-component-type-helpers: 2.0.29
     dev: true
 
   /@stylistic/eslint-plugin-js@2.6.0-beta.0(eslint@9.5.0):
@@ -5406,6 +5409,17 @@ packages:
     transitivePeerDependencies:
       - supports-color
       - typescript
+    dev: true
+
+  /eslint-plugin-tailwindcss@3.17.4(tailwindcss@3.4.6):
+    resolution: {integrity: sha512-gJAEHmCq2XFfUP/+vwEfEJ9igrPeZFg+skeMtsxquSQdxba9XRk5bn0Bp9jxG1VV9/wwPKi1g3ZjItu6MIjhNg==}
+    engines: {node: '>=18.12.0'}
+    peerDependencies:
+      tailwindcss: ^3.4.0
+    dependencies:
+      fast-glob: 3.3.2
+      postcss: 8.4.39
+      tailwindcss: 3.4.6
     dev: true
 
   /eslint-plugin-toml@0.11.1(eslint@9.5.0):
@@ -9686,6 +9700,10 @@ packages:
 
   /vue-component-type-helpers@2.0.28:
     resolution: {integrity: sha512-hoK0UsKXrXDY9zdpdk+drqOqYHpPhbmfQUJ2mFYK57+l73mQxcYyCteQsolllwGaxhWihT077+OA/FR5ZPTceg==}
+    dev: true
+
+  /vue-component-type-helpers@2.0.29:
+    resolution: {integrity: sha512-58i+ZhUAUpwQ+9h5Hck0D+jr1qbYl4voRt5KffBx8qzELViQ4XdT/Tuo+mzq8u63teAG8K0lLaOiL5ofqW38rg==}
     dev: true
 
   /vue-demi@0.14.8(vue@3.4.33):
